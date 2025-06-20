@@ -5,16 +5,17 @@ int main() {
 
     int choice;
 
-    printf(" ====================================================\n");
-    printf("  SiteLauncher - Instant Website Access Tool (V 0.1)\n");
-    printf(" ====================================================\n\n");
+    printf(" =============================================================================\n");
+    printf("                 SiteLauncher - Instant Website Access Tool (V 0.2)\n");
+    printf(" =============================================================================\n\n");
 
     printf(" Select a website to open:\n");
-
-    printf("   1 - Google     2 - Youtube      3 - Google Drive    4 - Maps\n\n");
-    printf("   5 - Chatgpt    6 - Deepseek \n\n");
-
-    printf("  10 - GitHub    11 - MongoDB     \n\n");
+    printf("   1 - Google      2 - Youtube      3 - Google Drive    4 - Maps     5 - Gmail\n\n");
+    printf("   6 - Chatgpt     7 - Deepseek     \n\n");
+    printf("  11 - GitHub     12 - MongoDB      \n\n");
+    printf("  16 - Whatsapp   17 - Canva        \n\n");
+    printf("  21 - Moratuwa   22 - Coursera     \n\n");
+    printf("  26 - Courseweb  \n\n");
 
     printf("Select your site number : ");
     scanf("%d", &choice);
