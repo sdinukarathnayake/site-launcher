@@ -19,7 +19,7 @@ int main() {
     printf("  21 - Moratuwa   22 - Coursera     \n\n");
     printf("  26 - Courseweb  \n\n");
 
-    printf("Select your site number : ");
+    printf(" Select your site number : ");
     scanf("%d", &choice);
 
     switch (choice) {
@@ -27,25 +27,43 @@ int main() {
             system("start https://www.google.com/");
             break;
         case 2:
-            system("start https://duckduckgo.com/");
+            system("start https://www.youtube.com/");
             break;
-                case 3:
+        case 3:
             system("start https://drive.google.com/drive/u/0/");
             break;
-                   case 4:
+        case 4:
             system("start https://www.google.com/maps?authuser=0");
             break;
-                   case 5:
-            system("start https://chatgpt.com/");
+        case 5:
+            system("start https://mail.google.com/");
             break;
-             case 6:
+        case 6:
+            system("start https://chat.openai.com/");
+            break;
+        case 7:
             system("start https://chat.deepseek.com/");
             break;
-                   case 10:
+        case 11:
             system("start https://github.com/sdinukarathnayake");
             break;
-                   case 11:
+        case 12:
             system("start https://account.mongodb.com/account/login");
+            break;
+        case 16:
+            system("start https://web.whatsapp.com/");
+            break;
+        case 17:
+            system("start https://www.canva.com/");
+            break;
+        case 21:
+            system("start https://open.uom.lk/lms/login/index.php");
+            break;
+        case 22:
+            system("start https://www.coursera.org/");
+            break;
+        case 26:
+            system("start https://courseweb.sliit.lk/my/");
             break;
         default:
             printf("Invalid choice.\n");
