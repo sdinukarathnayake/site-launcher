@@ -3,11 +3,13 @@
 
 int main() {
 
-    system("color 0E");
+    // Set console color: 0 = black background, E = light yellow text
+    system("color 0E"); 
 
-    int choice;
+    int choice; //menu selection
 
     while (1) {
+
         printf(" =============================================================================\n");
         printf("                 SiteLauncher - Instant Website Access Tool (V 0.2)\n");
         printf(" =============================================================================\n\n");
@@ -19,14 +21,15 @@ int main() {
         printf("  16 - Whatsapp   17 - Canva        \n\n");
         printf("  21 - Moratuwa   22 - Coursera     \n\n");
         printf("  26 - Courseweb  \n\n");
-        printf("   0 - Exit\n\n");
+        printf("   0 - Exit\n\n"); 
 
         printf("Select your site number (0 to Exit): ");
         scanf("%d", &choice);
 
+        // Check user wants to exit
         if (choice == 0) {
             printf("Goodbye! Closing SiteLauncher.\n\n");
-            break;  // exit the loop
+            break;
         }
 
         switch (choice) {
@@ -73,11 +76,11 @@ int main() {
                 system("start https://courseweb.sliit.lk/my/");
                 break;
             default:
-                printf("Invalid choice. Please try again.\n");
+                printf("Invalid choice. Please try again.\n");  
         }
 
         printf("\n"); 
     }
 
-    return 0;
+    return 0; 
 }
